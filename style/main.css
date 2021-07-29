@@ -23,7 +23,7 @@ header .logo {
   font-family: "Arial", Times;
   font-size: 40px;
   font-weight: bold;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 header nav a {
@@ -85,4 +85,18 @@ header nav a:hover {
 
 .button i {
   margin-right: 8px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.main-movie .container {
+  width: 70%;
+}
+
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
