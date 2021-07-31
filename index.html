@@ -5,36 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/global.css" />
     <link rel="stylesheet" href="./style/main.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="style/responsive.css" />
+
+    <!-- Owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
     <title>Netflix</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <div class="main-movie">
+    <div class="container-main">
+      <header>
         <div class="container">
-          <h3 class="title">HOUSE OF CARDS</h3>
-          <p class="description">
-            Nada pode impedir o político sem escrúpulos Frank Underwood de
-            conquistar Washington. Assista agora a nova temporada de House of
-            Cards que está imperdível.
-          </p>
+          <div>
+            <img src="./img/olympics.svg" class="logo" alt="Oliflix" />
+            <nav>
+              <a href="#">Inicio</a>
+              <a href="#">Esportes</a>
+              <a href="#">Recomendados</a>
+            </nav>
+          </div>
+          <nav class="settings-menu">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <a href="#"><i class="far fa-user-circle"></i></a>
+          </nav>
         </div>
-        <div class="buttons">
-          <button role="button" class="button">ASSISTIR AGORA</button>
-          <button role="button" class="button">MAIS INFORMAÇÕES</button>
+      </header>
+
+      <main>
+        <div class="container">
+          <h3 class="title">Skate</h3>
+          <p class="description">
+            Final feminino. Rayssa Leal conquista a medalha de prata e tornou-se
+            a sétima atleta mais jovem da história das Olimpíadas.
+          </p>
+          <div class="buttons">
+            <button role="button" class="button play">
+              <i class="fas fa-play"></i>
+              Assistir
+            </button>
+            <button role="button" class="button info">
+              <i class="fas fa-info-circle"></i>
+              Mais informações
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="carousel-movie">
+      <div class="carousel-sports">
+        <h3>Esportes</h3>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="box-movie" src="/img/mini1.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/mini2.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/mini3.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/mini4.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/mini5.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/mini6.jpg" alt="" srcset="" />
+          </div>
         </div>
       </div>
-    </main>
+
+      <div class="carousel-recommended">
+        <h3>Recomendados</h3>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-2.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-5.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-3.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-6.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-4.jpg" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img class="box-movie" src="/img/esporte-7.jpg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/cd96259565.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
   </body>
 </html>
