@@ -123,12 +123,31 @@ main .container .title {
   margin-right: 32px;
 }
 
+.carousel-movie {
+  margin-top: 5px;
+  margin-left: 32px;
+  /* background-color: red; */
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.carousel-sports {
+  margin-top: 32px;
+}
+
+.carousel-recommended {
+  margin-top: 32px;
+  /* background-color: aqua; */
+}
+
+.owl-carousel {
+  margin-top: 16px;
+}
+
 .box-movie {
   height: 100%;
   width: 100%;
+  border-radius: 8px;
   display: block;
-}
-
-.carousel-movie {
-  margin-top: 5px;
 }
