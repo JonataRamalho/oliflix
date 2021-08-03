@@ -4,6 +4,13 @@
     flex-direction: column;
   }
 
+  .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .button {
     margin-top: 5px;
     width: 300px;
@@ -13,5 +20,90 @@
 @media screen and (min-width: 1000px) {
   .description {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header .container .logo {
+    width: 22%;
+    margin-right: 40px;
+  }
+
+  header .container div {
+    display: flex;
+    flex-direction: column;
+  }
+  header .container div img {
+    margin-bottom: 8px;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  header .settings-menu a i {
+    font-size: 18px;
+  }
+
+  .box-movie {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header .settings-menu {
+    display: none;
+  }
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  header .container div {
+    width: 100vw;
+  }
+
+  main .container .title {
+    font-size: 40px;
+  }
+
+  main .container .description {
+    /* width: 90%; */
+    font-size: 14px;
+  }
+
+  .box-movie {
+    width: 92% !important;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  body .container-main {
+    background-position: center;
+  }
+
+  header .container .logo {
+    width: 22%;
+    margin-right: 0;
+  }
+
+  header nav a {
+    font-size: 14px;
+    /* margin: auto; */
+    margin-right: 16px;
+  }
+
+  main .container .title {
+    font-size: 32px;
+  }
+
+  main .container .description {
+    width: 100%;
+  }
+
+  .button {
+    margin-right: 0;
+    width: 250px;
   }
 }
