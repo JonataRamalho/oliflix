@@ -14,7 +14,7 @@ body {
 body .container-main {
   height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/img/rayssa-skate.jpg");
+    url("../img/rayssa-skate.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
